@@ -19,7 +19,7 @@ const VideoList = (props) => {
                             src={key.snippet.thumbnails.medium.url}
                             height={key.snippet.thumbnails.medium.height}
                             width='100%'
-                            alt=""
+                            alt={key.snippet.title}
                         />
                         <div className="content">
                             <h4 className="title">
